@@ -10,7 +10,6 @@ export default function ProfilePic() {
         get(`https://api.github.com/users/WilliamBerlin76`)
         .then(response => {
             const pic = response.data.avatar_url
-            console.log(pic);
             setPhoto(pic)
         })
         .catch(error => {

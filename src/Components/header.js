@@ -12,9 +12,9 @@ const HeaderWrapper = styled.div`
 `;
 const HeaderLayout = props => {
     return(
-        <HeaderWrapper key = {props.id}>
+        <HeaderWrapper>
             <div className='header-info-container'>
-                <img className="profile-pic"src={props.imgUrl}/>
+                <img className="profile-pic"src={props.imgUrl} alt='Profile'/>
                 <div className="name-links">
                     <h1 className="name">William Berlin</h1>
                     <p className="job-title">Web Developer</p>
@@ -22,7 +22,7 @@ const HeaderLayout = props => {
                         <i className="fab fa-github"/>
                     </a>
                     <a href="https://www.linkedin.com/in/william-berlin-75695b193/">
-                        <i class="fab fa-linkedin"/>
+                        <i className="fab fa-linkedin"/>
                     </a>
                 </div>
             </div>
