@@ -1,0 +1,35 @@
+body {
+  font-size: 62.5%
+}
+
+.header-info-container{
+  display: flex;
+  align-items: center;
+  .profile-pic{
+    border-radius: 50%;
+    width: 370px;
+    margin-right: 35px;
+  }
+  
+  .name-links{
+    margin-left: 25px;
+    
+    .fab{
+      font-size: 5rem;
+      text-decoration: none;
+      color: white;
+      margin-right: 25px;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+
+    .name{
+      font-size: 3rem;
+    }
+
+    .job-title{
+      font-size: 1.6rem;
+    }
+  }  
+}
