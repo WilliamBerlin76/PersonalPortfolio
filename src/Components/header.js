@@ -3,12 +3,13 @@ import styled from 'styled-components';
 
 const HeaderWrapper = styled.div`
     margin: 0 auto;
+    margin-bottom: -100px;
     color: rgb(199, 199, 199);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 800px;
-    height: 65vh;
+    height: 80vh;
 `;
 const HeaderLayout = props => {
     return(

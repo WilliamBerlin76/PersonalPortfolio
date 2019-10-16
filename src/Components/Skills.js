@@ -9,22 +9,22 @@ const Skills = () => {
             <div className='skills-list'>
                 <h3 className='skill-card-title'> HTML5 
                     <p>
-                        <i className="fab fa-html5"></i>
+                        <i className="fab fa-html5" />
                     </p>
                 </h3>
                 <h3 className='skill-card-title'> CSS/LESS/SASS
                     <p>
-                        <i className="fab fa-css3-alt"></i>
+                        <i className="fab fa-css3-alt" />
                     </p>
                 </h3>
                 <h3 className='skill-card-title'> JavaScript
                     <p>
-                        <i className="fab fa-js-square"></i>
+                        <i className="fab fa-js-square" />
                     </p>
                 </h3>
                 <h3 className='skill-card-title'> React.js/Redux
                     <p>
-                        <i className="fab fa-react"></i>
+                        <i className="fab fa-react" />
                     </p>    
                 </h3>
             </div>
