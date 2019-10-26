@@ -63,3 +63,41 @@ body {
     }
   }
 }
+
+.projects-section-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #3d6391;
+  color: #ece3f0;
+  h2{
+    font-size: 2.8rem;
+  }
+  .project-cards-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+   .project-card{
+     width: 90%;
+     background: #9db0c7;
+     margin-bottom: 20px;
+     border-radius: 12px;
+     padding-bottom: 20px;
+     color:#3e387e;
+     h3{
+       font-size: 2.5rem;
+       margin-left: 20px;
+     }
+     p{
+       font-size: 1.8rem;
+       margin-left: 20px;
+     }
+     a{
+       text-decoration: none;
+       font-size: 1.8rem;
+       margin-left: 20px;
+       color: #a10e0e;
+     }
+    }
+  }
+}
