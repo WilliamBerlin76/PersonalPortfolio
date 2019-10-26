@@ -42,15 +42,17 @@ body {
   background: #3e387e;
   color: #ece3f0;
   clip-path: polygon(0 calc(0% + 3.5vw), 100% 0, 100% 100%, 0 100%);
+  margin-bottom: -75px;
   h2{
     font-size: 2.8rem;
-    margin-top: 55px;
+    margin-top: 100px;
   }
 
   .skills-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 120px;
     width: 80%;
     .skill-card-title{
       font-size: 1.8rem;
@@ -70,13 +72,16 @@ body {
   align-items: center;
   background: #3d6391;
   color: #ece3f0;
+  clip-path: polygon(0 0, 100% calc(0% + 3.5vw), 100% 100%, 0 100%);
   h2{
     font-size: 2.8rem;
+    margin-top: 100px;
   }
   .project-cards-container{
     display: flex;
     flex-direction: column;
     width: 80%;
+    align-items: center;
    .project-card{
      width: 90%;
      background: #9db0c7;
@@ -92,11 +97,23 @@ body {
        font-size: 1.8rem;
        margin-left: 20px;
      }
-     a{
+    
+     button{
+       border: 0;
        text-decoration: none;
-       font-size: 1.8rem;
+       font-size: 1.5rem;
        margin-left: 20px;
-       color: #a10e0e;
+       background: #a10e0e;
+       color: #c8c8e8;
+       width: 250px;
+       height: 75px;
+       border-radius: 8px;
+       transition: .2s;
+       &:hover{
+         cursor: pointer;
+         color: #a10e0e;
+         background: #c8c8e8;
+       }
      }
     }
   }
