@@ -13,10 +13,10 @@ const Projects = () => {
                         <div className='project-card' key={item.name}>
                             <h3>{item.name}</h3>
                             <p>{item.role}</p>
-                            <a href={item.githubLink}>
+                            <a href={item.githubLink} target="_blank">
                                 <button>Github Repo</button>
                             </a>
-                            <a href={item.deployedLink}>
+                            <a href={item.deployedLink} target="_blank">
                                 <button>Deployed Web App</button>
                             </a>
                         </div>

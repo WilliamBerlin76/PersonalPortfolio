@@ -18,11 +18,11 @@ const HeaderLayout = props => {
                 <img className="profile-pic"src={props.imgUrl} alt='Profile'/>
                 <div className="name-links">
                     <h1 className="name">William Berlin</h1>
-                    <p className="job-title">Web Developer</p>
-                    <a href="https://github.com/WilliamBerlin76">
+                    <p className="job-title">Software Engineer</p>
+                    <a href="https://github.com/WilliamBerlin76" target="_blank">
                         <i className="fab fa-github"/>
                     </a>
-                    <a href="https://www.linkedin.com/in/william-berlin-75695b193/">
+                    <a href="https://www.linkedin.com/in/william-berlin-75695b193/" target="_blank">
                         <i className="fab fa-linkedin"/>
                     </a>
                 </div>
