@@ -74,6 +74,7 @@ body {
   background: #3d6391;
   color: #ece3f0;
   clip-path: polygon(0 0, 100% calc(0% + 3.5vw), 100% 100%, 0 100%);
+  margin-bottom: -75px;
   h2{
     font-size: 2.8rem;
     margin-top: 100px;
@@ -83,6 +84,7 @@ body {
     flex-direction: column;
     width: 80%;
     align-items: center;
+    margin-bottom: 125px;
    .project-card{
      width: 90%;
      background: #9db0c7;
@@ -115,8 +117,8 @@ body {
          cursor: pointer;
          color: #a10e0e;
          background: #c8c8e8;
-       }
-     }
+        }
+      }
     }
   }
 }
@@ -127,8 +129,58 @@ body {
   align-items: center;
   background: #3B96B5;
   color: #ece3f0;
+  clip-path: polygon(0 calc(0% + 3.5vw), 100% 0, 100% 100%, 0 100%);
   h2{
     font-size: 2.8rem;
     margin-top: 100px;
+  }
+  .contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    .small-buttons-container{
+      display:flex;
+      width: 100%;
+      justify-content: center;
+      .small-input{
+        width: 43%;
+        margin: 25px 26px;
+      }
+    }
+    input{
+      height: 50px;
+      border-radius: 15px;
+      font-size: 1.5rem;
+    }
+    .form-subject{
+      width: 100%;
+      margin-bottom: 25px;
+    }
+    .form-message{
+      width: 100%;
+      height: 100px;
+      border-radius: 15px;
+      font-size: 1.3rem;
+      margin-bottom: 25px;
+    }
+    .submit-button{
+      border: 0;
+      text-decoration: none;
+      font-size: 1.5rem;
+      margin-left: 20px;
+      margin-bottom: 50px;
+      background: #a10e0e;
+      color: #c8c8e8;
+      width: 250px;
+      height: 75px;
+      border-radius: 8px;
+      transition: .2s;
+      &:hover{
+        cursor: pointer;
+        color: #a10e0e;
+        background: #c8c8e8;
+      }
+    }
   }
 }

@@ -13,28 +13,35 @@ const Contact = () => {
     return (
         <section className='contact-form-container'>
             <h2>Contact Me!</h2>
-            <form classname='contact form'>
+            <form className='contact-form'>
+                <div className='small-buttons-container'>
+                    <input
+                        className='small-input'
+                        placeholder='Name'  
+                        name='senderName' 
+                        onChange={handleChanges} 
+                    />
+                    <input
+                        className='small-input'
+                        placeholder='Email'
+                        name='senderEmail'
+                        onChange={handleChanges}
+                    />
+                </div>
                 <input
-                    placeholder='Name'  
-                    name='senderName' 
-                    onChange={handleChanges} 
-                />
-                <input
-                    placeholder='Email'
-                    name='senderEmail'
-                    onChange={handleChanges}
-                />
-                <input
+                    className='form-subject'
                     placeholder='Subject'
                     name='subject'
                     onChange={handleChanges}
                 />
                 <textarea
+                    className='form-message'
                     placeholder='Message'
                     name='message'
                     onChange={handleChanges}
                 />
-                <button>Send</button>
+                
+                <button className='submit-button'>Send Message</button>
             </form>
 
         </section>
