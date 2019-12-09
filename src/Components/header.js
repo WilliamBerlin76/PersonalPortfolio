@@ -19,6 +19,7 @@ const HeaderLayout = props => {
                 <div className="name-links">
                     <h1 className="name">William Berlin</h1>
                     <p className="job-title">Software Engineer</p>
+                    <p className="email">william.berlin76@gmail.com</p>
                     <a href="https://github.com/WilliamBerlin76" target="_blank">
                         <i className="fab fa-github"/>
                     </a>
