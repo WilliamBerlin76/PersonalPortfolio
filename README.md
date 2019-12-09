@@ -4,4 +4,4 @@
 
 ### This is still a work in progress. The contact form is not sending data anywhere yet.
 
--- the url for this portfolio is <a>href='https://williamberlin.now.sh/'</a>
+-- the url for this portfolio is <a>https://williamberlin.now.sh/</a>
