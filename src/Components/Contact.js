@@ -3,6 +3,7 @@ import axios from 'axios';
 
 const Contact = () => {
     const [message, setMessage] = useState({});
+    const [isFetching, setIsFetching] = useState(false);
     
     const handleChanges = e => {
         setMessage({
@@ -10,16 +11,21 @@ const Contact = () => {
             [e.target.name]: e.target.value
         })
     };
-
     const sendMessage = e => {
         e.preventDefault();
-        axios.post('https://portfolio-messages-backend.herokuapp.com/api/messages', message)
+        if (!message.senderName || !message.senderEmail || !message.subject || !message.message ) {
+            alert('Please fill in all form fields')
+        } else {
+            setIsFetching(true);
+            axios.post('https://portfolio-messages-backend.herokuapp.com/api/messages', message)
             .then(res => {
                 alert(`Your message was sent.\nThank you for reaching out!`);
+                setIsFetching(false)
             })
             .catch(err => {
                 console.log('SENDING MESSAGE ERR', err)
             });
+        }  
     };
     
     return (
@@ -53,7 +59,12 @@ const Contact = () => {
                     onChange={handleChanges}
                 />
                 
-                <button className='submit-button' onClick={sendMessage}>Send Message</button>
+                { isFetching === true ? 
+                    <div className='sending-message'>Sending</div> : 
+                    <button className='submit-button' onClick={sendMessage}>Send Message</button>
+                }
+
+                
             </form>
 
         </section>
