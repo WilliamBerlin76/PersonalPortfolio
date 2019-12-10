@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { ClipLoader } from 'react-spinners';
 import axios from 'axios';
 
 const Contact = () => {
@@ -60,7 +61,14 @@ const Contact = () => {
                 />
                 
                 { isFetching === true ? 
-                    <div className='sending-message'>Sending</div> : 
+                    <ClipLoader 
+                        className='loader'
+                        color={'#521414'}
+                        size={'38'}
+                        sizeUnit={'px'}
+                        
+                    />
+                    : 
                     <button className='submit-button' onClick={sendMessage}>Send Message</button>
                 }
 
