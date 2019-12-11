@@ -4,4 +4,4 @@
 
 ### This is still a work in progress. The contact form works and is sending data to my personal message board.
 
--- the url for this portfolio is <a>https://williamberlin.now.sh/</a>
+-- the url for this portfolio is <a>https://william-berlin.herokuapp.com/</a>
