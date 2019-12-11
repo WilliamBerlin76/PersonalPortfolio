@@ -18,13 +18,14 @@ const Contact = () => {
             alert('Please fill in all form fields')
         } else {
             setIsFetching(true);
-            axios.post('https://portfolio-messages-backend.herokuapp.com/api/messages', message)
+            axios.post(`${process.env.REACT_APP_API_POST}`, message)
             .then(res => {
                 alert(`Your message was sent.\nThank you for reaching out!`);
                 setIsFetching(false)
             })
             .catch(err => {
-                console.log('SENDING MESSAGE ERR', err)
+                alert('There was an error sending your message to the server')
+                setIsFetching(false)
             });
         }  
     };
