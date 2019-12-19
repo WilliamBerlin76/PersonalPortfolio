@@ -62,13 +62,14 @@ const Contact = () => {
                 />
                 
                 { isFetching === true ? 
-                    <ClipLoader 
-                        className='loader'
-                        color={'#521414'}
-                        size={'38'}
-                        sizeUnit={'px'}
-                        
-                    />
+                    <div className='sending-message'>
+                        <ClipLoader 
+                            className='loader'
+                            color={'#521414'}
+                            size={'38'}
+                            sizeUnit={'px'}
+                        />
+                    </div>
                     : 
                     <button className='submit-button' onClick={sendMessage}>Send Message</button>
                 }
