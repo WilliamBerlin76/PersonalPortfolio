@@ -26,6 +26,7 @@ const Contact = () => {
             .catch(err => {
                 alert('There was an error sending your message to the server')
                 setIsFetching(false)
+                console.log(err)
             });
         }  
     };
