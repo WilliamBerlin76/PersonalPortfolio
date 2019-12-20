@@ -9,7 +9,7 @@ const HeaderWrapper = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     max-width: 800px;
-    height: 80vh;
+    height: 100vh;
 `;
 const HeaderLayout = props => {
     return(
