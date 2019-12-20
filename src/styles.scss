@@ -24,6 +24,9 @@ body {
   
   .name-links{
     margin-left: 25px;
+    @media screen and (max-width: 500px){
+      margin-left: 0
+    }
     
     .fab{
       font-size: 5rem;
@@ -65,6 +68,10 @@ body {
   h2{
     font-size: 2.8rem;
     margin-top: 100px;
+    @media screen and (max-width: 500px){
+      font-size: 2.3rem;
+      margin-top: 50px;
+    }
   }
 
   .skills-list{
@@ -78,10 +85,17 @@ body {
       font-size: 1.8rem;
       text-align: center;
       margin: 20px 230px;
+      @media screen and (max-width: 500px) {
+        margin: 15px 15px;
+        font-size: 1.3rem;
+      }
     }
     .fab{
       font-size: 10rem;
       color: #fe9fad;
+      @media screen and (max-width: 500px){
+        font-size: 7rem;
+      }
     }
   }
 }
