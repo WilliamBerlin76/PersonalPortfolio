@@ -21,12 +21,12 @@ const Contact = () => {
             axios.post(`${process.env.REACT_APP_API_POST}`, message)
             .then(res => {
                 alert(`Your message was sent.\nThank you for reaching out!`);
-                setIsFetching(false)
+                setIsFetching(false);
             })
             .catch(err => {
-                alert('There was an error sending your message to the server')
-                setIsFetching(false)
-                console.log(err)
+                console.log(err);
+                alert('There was an error sending your message to the server');
+                setIsFetching(false);
             });
         }  
     };

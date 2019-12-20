@@ -111,6 +111,10 @@ body {
   h2{
     font-size: 2.8rem;
     margin-top: 100px;
+    @media screen and (max-width: 500px){
+      font-size: 2.3rem;
+      margin-top: 50px;
+    }
   }
   .project-cards-container{
     display: flex;
