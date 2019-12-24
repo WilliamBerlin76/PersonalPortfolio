@@ -130,13 +130,24 @@ body {
      padding-bottom: 20px;
      color:#3e387e;
      box-shadow: 3px 5px 15px #152614;
+     @media screen and (max-width: 500px){
+       text-align: center;
+     }
      h3{
        font-size: 2.5rem;
        margin-left: 20px;
+       @media screen and (max-width: 500px){
+        margin-left: 0;
+        font-size: 2rem;
+      }
      }
      p{
        font-size: 1.8rem;
        margin-left: 20px;
+       @media screen and (max-width: 500px){
+        margin-left: 0;
+        font-size: 1.5rem;
+      }
      }
     
      button{
@@ -150,6 +161,13 @@ body {
        height: 75px;
        border-radius: 8px;
        transition: .2s;
+       @media screen and (max-width: 500px){
+         margin-left: 0;
+         margin-bottom: 10px;
+         width: 75%;
+         height: 35px;
+         font-size: 1.3rem;
+       }
        &:hover{
          cursor: pointer;
          color: #a10e0e;
