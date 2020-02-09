@@ -1,5 +1,6 @@
 export const projectData = [
     {name:'mNeme (flashcards application)', role: 'Full Stack Web Developer', frontend:'https://github.com/Lambda-School-Labs/flashcards-fe', backend:'https://github.com/Lambda-School-Labs/flashcards-be', deployedLink: 'https://mneme-staging.netlify.com/'},
+    {name:'Weight Lifting Journal', role: 'Back End Web Developer', backend:'https://github.com/Build-Week-Weight-Lifiting-Journal/Back-end', deployedLink: 'https://weight-lifiting-journal.netlify.com/'},
     {name:'Guidr', role:'Front-End React/state management & authentication', githubLink: 'https://github.com/Build-Week-FT-Guidr', deployedLink:'https://guidr.now.sh/'},
     {name:'Essentialism', role:'Front-End React', githubLink:'https://github.com/Build-Week-Essentialism-2/Essentialism-FE', deployedLink: 'https://app-essentialism.netlify.com/'},
     {name:'Expat Journal', role:'Landing Page UI', githubLink:'https://github.com/ExpatJournal/Marketing-Page-William-Berlin', deployedLink: 'https://pensive-euler-ed7f27.netlify.com/'},
