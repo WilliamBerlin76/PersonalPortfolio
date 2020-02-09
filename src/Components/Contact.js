@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { ClipLoader } from 'react-spinners';
 import axios from 'axios';
 
+
 const Contact = () => {
     const [message, setMessage] = useState({});
     const [isFetching, setIsFetching] = useState(false);

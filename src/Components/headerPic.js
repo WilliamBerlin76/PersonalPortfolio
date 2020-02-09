@@ -6,15 +6,14 @@ export default function ProfilePic() {
     const [photo, setPhoto] = useState([]);
     
     useEffect(() => {
-        axios.
-        get(`https://api.github.com/users/WilliamBerlin76`)
-        .then(response => {
-            const pic = response.data.avatar_url
-            setPhoto(pic)
-        })
-        .catch(error => {
-            console.log(`No picture for you`, error);
-        })
+        axios.get(`https://api.github.com/users/WilliamBerlin76`)
+            .then(response => {
+                const pic = response.data.avatar_url
+                setPhoto(pic)
+            })
+            .catch(error => {
+                console.log(`No picture for you`, error);
+            })
     }, []);
 
 const HeaderContainer = styled.header`

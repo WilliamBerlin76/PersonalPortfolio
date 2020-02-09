@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { projectData } from '../dataArrays';
+import ProjectCards from './ProjectCard';
 
 const Projects = () => {
 
@@ -10,16 +11,14 @@ const Projects = () => {
             <div className='project-cards-container'>
                 {projectData.map(item => {
                     return(
-                        <div className='project-card' key={item.name}>
-                            <h3>{item.name}</h3>
-                            <p>{item.role}</p>
-                            <a href={item.githubLink} target="_blank">
-                                <button>Github Repo</button>
-                            </a>
-                            <a href={item.deployedLink} target="_blank">
-                                <button>Deployed Web App</button>
-                            </a>
-                        </div>
+                        <ProjectCards
+                           key={item.name}  
+                           name={item.name}
+                           role={item.role}
+                           githubLink={item.githubLink} 
+                           frontend={item.frontend}
+                           backend={item.backend}
+                        />
                     )
                 })}
             </div>
