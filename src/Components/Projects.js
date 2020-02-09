@@ -18,6 +18,7 @@ const Projects = () => {
                            githubLink={item.githubLink} 
                            frontend={item.frontend}
                            backend={item.backend}
+                           deployedLink={item.deployedLink}
                         />
                     )
                 })}
