@@ -38,6 +38,15 @@ const ProjectCards = props => {
             <a href={props.deployedLink} target="_blank" rel="noopener noreferrer">
                 <button>Deployed Web App</button>
             </a>
+            
+                
+            {showDescription ? 
+                <div className='desc-container'>
+                    <h4 className='desc-header'>description</h4>
+                    <p className='desc-text'>{props.description}</p>
+                </div>
+            : null
+            }
             {!showDescription ? 
                 <div className='toggle-description' onClick={displayDesc}>
                     <span className='drop-text'>show more</span>
@@ -48,14 +57,6 @@ const ProjectCards = props => {
                     <span className='drop-text'>show less</span>
                     <ExpandLessIcon />
                 </div>
-            }
-                
-            {showDescription ? 
-                <div>
-                    <h4>description</h4>
-                    <p>{props.description}</p>
-                </div>
-            : null
             }
             
             

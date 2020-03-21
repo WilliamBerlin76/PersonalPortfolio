@@ -182,7 +182,7 @@ body {
         }
       }
       .toggle-description{
-        width: 88%;
+        width: 175px;
         margin: 15px auto 0px;
         border-radius: 50px;
         display: flex;
@@ -190,11 +190,17 @@ body {
         justify-content: center;
         cursor: pointer;
         .drop-text{
-          font-size: 1.2rem;
+          font-size: 1.1rem;
           margin-bottom: 3px;
         }
-        &:hover{
-          background: rgba(27, 151, 182, 0.952)
+      }
+      .desc-container{
+        .desc-header{
+          margin-left: 20px;
+          font-size: 1.5rem;
+        }
+        .desc-text{
+          font-size: 1.2rem;
         }
       }
     }
