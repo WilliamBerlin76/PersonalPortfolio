@@ -19,6 +19,8 @@ const Projects = () => {
                            frontend={item.frontend}
                            backend={item.backend}
                            deployedLink={item.deployedLink}
+                           description={item.description}
+                           showDesc={false}
                         />
                     )
                 })}
