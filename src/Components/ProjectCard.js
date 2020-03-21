@@ -1,5 +1,9 @@
 import React, {useState} from 'react';
 
+import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
+import ExpandLessIcon from '@material-ui/icons/ExpandLess';
+
+
 import '../styles.scss';
 
 const ProjectCards = props => {
@@ -7,7 +11,6 @@ const ProjectCards = props => {
     const displayDesc = e => {
         e.preventDefault()
         setShowDescription(!showDescription)
-        console.log(showDescription)
     }
 
     return(
@@ -35,7 +38,18 @@ const ProjectCards = props => {
             <a href={props.deployedLink} target="_blank" rel="noopener noreferrer">
                 <button>Deployed Web App</button>
             </a>
-            <button onClick={displayDesc}>Hello World</button>
+            {!showDescription ? 
+                <div className='toggle-description' onClick={displayDesc}>
+                    <span className='drop-text'>show more</span>
+                    <KeyboardArrowDownIcon /> 
+                </div>
+                : 
+                <div className='toggle-description' onClick={displayDesc}>
+                    <span className='drop-text'>show less</span>
+                    <ExpandLessIcon />
+                </div>
+            }
+                
             {showDescription ? 
                 <div>
                     <h4>description</h4>

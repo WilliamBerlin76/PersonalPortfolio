@@ -18,7 +18,7 @@ const HeaderLayout = props => {
                 <img className="profile-pic"src={props.imgUrl} alt='Profile'/>
                 <div className="name-links">
                     <h1 className="name">William Berlin</h1>
-                    <p className="job-title">Software Engineer</p>
+                    <p className="job-title">Software Developer</p>
                     <p className="email">william.berlin76@gmail.com</p>
                     <a href="https://github.com/WilliamBerlin76" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-github"/>

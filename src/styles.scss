@@ -181,6 +181,22 @@ body {
          background: #c8c8e8;
         }
       }
+      .toggle-description{
+        width: 88%;
+        margin: 15px auto 0px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        .drop-text{
+          font-size: 1.2rem;
+          margin-bottom: 3px;
+        }
+        &:hover{
+          background: rgba(27, 151, 182, 0.952)
+        }
+      }
     }
   }
 }
