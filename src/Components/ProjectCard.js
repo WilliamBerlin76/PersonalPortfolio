@@ -1,8 +1,18 @@
-import React from 'react';
+import React, {useState} from 'react';
+
+import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
+import ExpandLessIcon from '@material-ui/icons/ExpandLess';
+
 
 import '../styles.scss';
 
 const ProjectCards = props => {
+    const [showDescription, setShowDescription] = useState(false)
+    const displayDesc = e => {
+        e.preventDefault()
+        setShowDescription(!showDescription)
+    }
+
     return(
         <div className='project-card' key={props.name}>
             <h3>{props.name}</h3>
@@ -28,6 +38,28 @@ const ProjectCards = props => {
             <a href={props.deployedLink} target="_blank" rel="noopener noreferrer">
                 <button>Deployed Web App</button>
             </a>
+            
+                
+            {showDescription ? 
+                <div className='desc-container'>
+                    <h4 className='desc-header'>description</h4>
+                    <p className='desc-text'>{props.description}</p>
+                </div>
+            : null
+            }
+            {!showDescription ? 
+                <div className='toggle-description' onClick={displayDesc}>
+                    <span className='drop-text'>show more</span>
+                    <KeyboardArrowDownIcon /> 
+                </div>
+                : 
+                <div className='toggle-description' onClick={displayDesc}>
+                    <span className='drop-text'>show less</span>
+                    <ExpandLessIcon />
+                </div>
+            }
+            
+            
         </div>
     )
 };

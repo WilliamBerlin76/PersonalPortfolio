@@ -181,6 +181,28 @@ body {
          background: #c8c8e8;
         }
       }
+      .toggle-description{
+        width: 175px;
+        margin: 15px auto 0px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        .drop-text{
+          font-size: 1.1rem;
+          margin-bottom: 3px;
+        }
+      }
+      .desc-container{
+        .desc-header{
+          margin-left: 20px;
+          font-size: 1.5rem;
+        }
+        .desc-text{
+          font-size: 1.2rem;
+        }
+      }
     }
   }
 }

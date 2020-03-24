@@ -4,32 +4,42 @@ export const projectData = [
         role: 'Full Stack Web Developer', 
         frontend:'https://github.com/Lambda-School-Labs/flashcards-fe', 
         backend:'https://github.com/Lambda-School-Labs/flashcards-be', 
-        deployedLink: 'https://mneme-staging.netlify.com/'
+        deployedLink: 'https://mneme-staging.netlify.com/',
+        description: 'mNeme is a flashcard application intended to aid students in their studies. Users can create, edit, remove, and archive their decks and flashcards in this app. mNeme was built using React.js on the frontend, and Node.js with a cloud firestore database on the backend.',
+        
     },
     {
         name:'Ant Adventure', 
         role:'Front End React', 
         githubLink:'https://github.com/CS26-Team-PleaseComeToBrazil-Mud-Game', 
-        deployedLink:'https://ant-adventure.now.sh/'
+        deployedLink:'https://ant-adventure.now.sh/',
+        description: 'Ant adventure is a simple maze adventure game where you, the player, are an ant traversing the vast maze of an ant hill. The backend was built with Python3 and Django, and the frontend was built using React.js.',
+        
     },
     {
         name:'Weight Lifting Journal', 
         role: 'Back End Web Developer', 
         backend:'https://github.com/Build-Week-Weight-Lifiting-Journal/Back-end',
-        deployedLink: 'https://weight-lifiting-journal.netlify.com/'
+        deployedLink: 'https://weight-lifiting-journal.netlify.com/',
+        description: 'Weight Lifting Journal is an app designed to help weight lifters keep track of their exercises. Users can create, edit, and delete their exercises, and add exercises to a workout. The frontend was created with React.js, and the backend uses Node.js with a PostgreSQL database.',
+        
     },
     {
         name:'Guidr', 
         role:'Front End React', 
         githubLink: 'https://github.com/Build-Week-FT-Guidr', 
-        deployedLink:'https://guidr.now.sh/'
+        deployedLink:'https://guidr.now.sh/',
+        description: 'Guidr is an app that lets outdoor guides record their journeys to build their outdoor resume. Using this web app, guides can add, edit, and delete trips to and from their trip record. The frontend was built using React.js, and the backend was built with Node.js.',
+        
     },
-    {
-        name:'Essentialism', 
-        role:'Front End React', 
-        githubLink:'https://github.com/Build-Week-Essentialism-2/Essentialism-FE', 
-        deployedLink: 'https://app-essentialism.netlify.com/'
-    },
+    // {
+    //     name:'Essentialism', 
+    //     role:'Front End React', 
+    //     githubLink:'https://github.com/Build-Week-Essentialism-2/Essentialism-FE', 
+    //     deployedLink: 'https://app-essentialism.netlify.com/',
+    //     description: 'Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum',
+        
+    // },
     // {name:'Expat Journal', role:'Landing Page UI', githubLink:'https://github.com/ExpatJournal/Marketing-Page-William-Berlin', deployedLink: 'https://pensive-euler-ed7f27.netlify.com/'},
     // {name:'Naruto Filler List', role:'Solo project - React/Redux', githubLink:'https://github.com/WilliamBerlin76/React-Redux-App', deployedLink:'https://react-redux-app-49lkdn9dv.now.sh/'},
     // {name:'', githubLink:''}
