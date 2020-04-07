@@ -9,6 +9,15 @@ export const projectData = [
         
     },
     {
+        name:'Treasure Hunter', 
+        role:'Full Stack', 
+        frontend: 'https://github.com/WilliamBerlin76/treasure-hunt',
+        backend: 'https://github.com/WilliamBerlin76/cs_bw2_be',
+        deployedLink:'https://treasurehunter.netlify.com/',
+        description: 'Treasure hunter is a client for the Lambda Treasure Hunt challenge. As a Treasure hunter, you traverse an unknown map, building it as you go. You may encounter items, shrines, or even other players on your journy. The goal is to mine a Lambda Coin from a block chain, but to find the coin, you must follow the clues. For this challenge, I created the client with React.js, and stored my graph of the map on a PostgreSQL database with a Node.js backend. This project includes implementations of breadth-first-search, depth-first-traversal, and blockchain proof-of-work algorithms.',
+    
+    },
+    {
         name:'Ant Adventure', 
         role:'Front End React', 
         githubLink:'https://github.com/CS26-Team-PleaseComeToBrazil-Mud-Game', 
@@ -24,14 +33,14 @@ export const projectData = [
         description: 'Weight Lifting Journal is an app designed to help weight lifters keep track of their exercises. Users can create, edit, and delete their exercises, and add exercises to a workout. The frontend was created with React.js, and the backend uses Node.js with a PostgreSQL database.',
         
     },
-    {
-        name:'Guidr', 
-        role:'Front End React', 
-        githubLink: 'https://github.com/Build-Week-FT-Guidr', 
-        deployedLink:'https://guidr.now.sh/',
-        description: 'Guidr is an app that lets outdoor guides record their journeys to build their outdoor resume. Using this web app, guides can add, edit, and delete trips to and from their trip record. The frontend was built using React.js, and the backend was built with Node.js.',
+    // {
+    //     name:'Guidr', 
+    //     role:'Front End React', 
+    //     githubLink: 'https://github.com/Build-Week-FT-Guidr', 
+    //     deployedLink:'https://guidr.now.sh/',
+    //     description: 'Guidr is an app that lets outdoor guides record their journeys to build their outdoor resume. Using this web app, guides can add, edit, and delete trips to and from their trip record. The frontend was built using React.js, and the backend was built with Node.js.',
         
-    },
+    // },
     // {
     //     name:'Essentialism', 
     //     role:'Front End React', 

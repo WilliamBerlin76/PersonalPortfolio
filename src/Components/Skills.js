@@ -5,7 +5,7 @@ const Skills = () => {
 
     return(
         <section className='skills-container'>
-            <h2>Skills</h2>
+            <h2>Skills/Technologies</h2>
             <div className='skills-list'>
                 <h3 className='skill-card-title'> HTML5 
                     <p>
@@ -41,8 +41,9 @@ const Skills = () => {
                         <img style={ {background: '#cccccc', 
                                     borderRadius: '5px', 
                                     paddingLeft: '5px', 
-                                    height: '125px', 
-                                    marginTop:'12px'} } 
+                                    // height: '125px', 
+                                    // marginTop:'12px'
+                                } } 
                             className='skill-logo' 
                             src="https://img.icons8.com/windows/256/000000/nodejs.png"/>
                         {/*<a href="https://icons8.com/icon/54087/nodejs">Nodejs icon by Icons8</a>*/}
@@ -55,7 +56,7 @@ const Skills = () => {
                         {/*<a href="https://icons8.com/icon/13441/python">Python icon by Icons8</a>*/}
                     </p>    
                 </h3>
-                <h3 className='skill-card-title'> SQL/SQLite/PostgreSQL
+                <h3 className='skill-card-title'> SQL/PostgreSQL
                     <p>
                         {/* <i className="fab fa-react" /> */}
                         <img alt='skill-logo' className='skill-logo' src="https://img.icons8.com/color/240/000000/sql.png"/>
