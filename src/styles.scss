@@ -84,21 +84,23 @@ body {
   .skills-list{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 120px;
-    width: 80%;
+    margin-top: 35px;
+    width: 90%;
     
     .skill-card-title{
-      font-size: 1.8rem;
+      font-size: 1.4rem;
       text-align: center;
-      margin: 20px 230px;
+      margin: 20px 20px;
       @media screen and (max-width: 500px) {
         margin: 15px 20px;
         font-size: 1rem;
       }
     }
-    .fab{
-      font-size: 10rem;
+    .skill-logo{
+      height: 150px;
       color: #fe9fad;
       @media screen and (max-width: 500px){
         font-size: 6rem;
