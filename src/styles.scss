@@ -22,7 +22,7 @@ body {
     align-items: center;
     justify-content: center;
   
-    @media screen and (max-width: 500px){
+    @media screen and (max-width: 650px){
       flex-direction: column;
       text-align: center;
     }
@@ -93,6 +93,9 @@ body {
         color: rgb(48, 27, 48);
         font-weight: 500;
         transition: .18s;
+      }
+      @media (max-width: 650px){
+        display: none;
       }
     }
   } 
