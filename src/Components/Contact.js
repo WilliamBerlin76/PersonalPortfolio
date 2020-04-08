@@ -33,7 +33,7 @@ const Contact = () => {
     };
     
     return (
-        <section className='contact-form-container'>
+        <section className='contact-form-container' id='contact'>
             <h2>Contact Me!</h2>
             <form className='contact-form'>
                 <div className='small-buttons-container'>

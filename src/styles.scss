@@ -1,28 +1,44 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-size: 62.5%
 }
 
 .header-info-container{
   display: flex;
+  flex-direction: column;
   align-items: center;
-  margin-top: -100px;
+  margin: -100px auto -100px;
+  color: rgb(199, 199, 199);
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px;
+  height: 105vh;
 
-  @media screen and (max-width: 500px){
-    flex-direction: column;
-    text-align: center;
-  }
-  .profile-pic{
-    border-radius: 50%;
-    width: 400px;
-    margin-right: 35px;
-    @media screen and (max-width: 800px){
-      width: 300px;
-      margin-right: 0;
-    }
+  .main-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
     @media screen and (max-width: 500px){
-      width: 200px;
-      margin-right: 0;
-      margin-top: 120px;
+      flex-direction: column;
+      text-align: center;
+    }
+    .profile-pic{
+      border-radius: 50%;
+      width: 400px;
+      margin-right: 35px;
+      @media screen and (max-width: 800px){
+        width: 300px;
+        margin-right: 0;
+      }
+      @media screen and (max-width: 500px){
+        width: 200px;
+        margin-right: 0;
+        margin-top: 120px;
+      }
     }
   }
   
@@ -61,7 +77,25 @@ body {
     .email{
       font-size: 1.3rem;
     }
-  }  
+  } 
+  .nav{
+    margin-top: 75px;
+    a{
+      text-decoration: none;
+      font-size: 1.2rem;
+      padding: 15px 35px;
+      border: 2px solid;
+      margin: 0 18px 0 18px;
+      border-radius: 50px;
+      color: #33badd;
+      &:hover{
+        background: #33badd;
+        color: rgb(48, 27, 48);
+        font-weight: 500;
+        transition: .18s;
+      }
+    }
+  } 
 }
 
 .skills-container{

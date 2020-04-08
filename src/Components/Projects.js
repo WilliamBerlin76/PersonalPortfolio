@@ -6,7 +6,7 @@ import ProjectCards from './ProjectCard';
 const Projects = () => {
 
     return(
-        <section className="projects-section-container">
+        <section className="projects-section-container" id='projects'>
             <h2>Projects</h2>
             <div className='project-cards-container'>
                 {projectData.map(item => {
