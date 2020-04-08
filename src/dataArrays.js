@@ -1,7 +1,7 @@
 export const projectData = [
     {
         name:'mNeme (flashcards application)', 
-        role: 'Full Stack Web Developer', 
+        role: 'Full Stack', 
         frontend:'https://github.com/Lambda-School-Labs/flashcards-fe', 
         backend:'https://github.com/Lambda-School-Labs/flashcards-be', 
         deployedLink: 'https://mneme-staging.netlify.com/',
@@ -9,7 +9,7 @@ export const projectData = [
         
     },
     {
-        name:'Treasure Hunter', 
+        name:'Treasure Hunter (Desktop Only)', 
         role:'Full Stack', 
         frontend: 'https://github.com/WilliamBerlin76/treasure-hunt',
         backend: 'https://github.com/WilliamBerlin76/cs_bw2_be',
@@ -18,7 +18,7 @@ export const projectData = [
     
     },
     {
-        name:'Ant Adventure', 
+        name:'Ant Adventure (Desktop Only)', 
         role:'Front End React', 
         githubLink:'https://github.com/CS26-Team-PleaseComeToBrazil-Mud-Game', 
         deployedLink:'https://ant-adventure.now.sh/',

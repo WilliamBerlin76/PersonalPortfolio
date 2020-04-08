@@ -1,19 +1,8 @@
 import React from 'react';
-import styled from 'styled-components';
 
-// const HeaderWrapper = styled.div`
-//     margin: 0 auto;
-//     margin-bottom: -100px;
-//     color: rgb(199, 199, 199);
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: center;
-//     max-width: 800px;
-//     height: 105vh;
-// `;
+
 const HeaderLayout = props => {
     return(
-        // <HeaderWrapper>
             <section className='header-info-container'>
                 <div className='main-info'>
                     <img className="profile-pic"src={props.imgUrl} alt='Profile'/>
@@ -36,7 +25,6 @@ const HeaderLayout = props => {
                 </div>
             </section>
             
-        //</HeaderWrapper>
     );
 };
 

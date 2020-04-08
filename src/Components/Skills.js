@@ -44,6 +44,7 @@ const Skills = () => {
                                     // height: '125px', 
                                     // marginTop:'12px'
                                 } } 
+                            alt='skill-logo'
                             className='skill-logo' 
                             src="https://img.icons8.com/windows/256/000000/nodejs.png"/>
                         {/*<a href="https://icons8.com/icon/54087/nodejs">Nodejs icon by Icons8</a>*/}
