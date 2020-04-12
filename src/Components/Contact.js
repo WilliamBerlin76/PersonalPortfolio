@@ -19,7 +19,7 @@ const Contact = () => {
             alert('Please fill in all form fields')
         } else {
             setIsFetching(true);
-            axios.post(`${process.env.REACT_APP_API_POST}`, message)
+            axios.post(process.env.REACT_APP_API_POST, message)
             .then(res => {
                 alert(`Your message was sent.\nThank you for reaching out!`);
                 setIsFetching(false);
