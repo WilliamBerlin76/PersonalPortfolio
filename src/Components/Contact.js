@@ -78,7 +78,7 @@ const Contact = () => {
 
                 
             </form>
-
+        <p style={ {fontSize: '1rem', marginTop: '-15px'} }>Skill logos by <a href='https://icons8.com' target="_blank" rel="noopener noreferrer"> icons8 </a></p>
         </section>
     )
 }
