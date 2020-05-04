@@ -8,8 +8,7 @@ import '../styles.scss';
 
 const ProjectCards = props => {
     const [showDescription, setShowDescription] = useState(false)
-    const displayDesc = e => {
-        e.preventDefault()
+    const displayDesc = () => {
         setShowDescription(!showDescription)
     }
 

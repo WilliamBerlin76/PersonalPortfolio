@@ -13,8 +13,7 @@ const Contact = () => {
             [e.target.name]: e.target.value
         })
     };
-    const sendMessage = e => {
-        e.preventDefault();
+    const sendMessage = () => {
         if (!message.senderName || !message.senderEmail || !message.subject || !message.message ) {
             alert('Please fill in all form fields')
         } else {
