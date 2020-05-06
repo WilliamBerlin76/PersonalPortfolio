@@ -1,13 +1,13 @@
 export const projectData = [
-    // {
-    //     name:'mNeme (flashcards application)', 
-    //     role: 'Full Stack', 
-    //     frontend:'https://github.com/Lambda-School-Labs/flashcards-fe', 
-    //     backend:'https://github.com/Lambda-School-Labs/flashcards-be', 
-    //     deployedLink: 'https://mneme-staging.netlify.com/',
-    //     description: 'mNeme is a flashcard application intended to aid students in their studies. Users can create, edit, remove, and archive their decks and flashcards in this app. mNeme was built using React.js on the frontend, and Node.js with a cloud firestore database on the backend.',
+    {
+        name:'mNeme (flashcards application)', 
+        role: 'Full Stack', 
+        frontend:'https://github.com/Lambda-School-Labs/flashcards-fe', 
+        backend:'https://github.com/Lambda-School-Labs/flashcards-be', 
+        deployedLink: 'https://mneme-flashcards.netlify.com/',
+        description: 'mNeme is a flashcard application intended to aid students in their studies. Users can create, edit, remove, and archive their decks and flashcards in this app. mNeme was built using React.js on the frontend, and Node.js with a cloud firestore database on the backend.',
         
-    // },
+    },
     {
         name:'Treasure Hunter (Desktop Only)', 
         role:'Full Stack', 
@@ -17,14 +17,14 @@ export const projectData = [
         description: 'Treasure hunter is a client for the Lambda Treasure Hunt challenge. As a Treasure hunter, you traverse an unknown map, building it as you go. You may encounter items, shrines, or even other players on your journy. The goal is to mine a Lambda Coin from a block chain, but to find the coin, you must follow the clues. For this challenge, I created the client with React.js, and stored my graph of the map on a PostgreSQL database with a Node.js backend. This project includes implementations of breadth-first-search, depth-first-traversal, and blockchain proof-of-work algorithms.',
     
     },
-    {
-        name:'Guidr', 
-        role:'Front End React', 
-        githubLink: 'https://github.com/Build-Week-FT-Guidr', 
-        deployedLink:'https://guidr.now.sh/',
-        description: 'Guidr is an app that lets outdoor guides record their journeys to build their outdoor resume. Using this web app, guides can add, edit, and delete trips to and from their trip record. The frontend was built using React.js, and the backend was built with Node.js.',
+    // {
+    //     name:'Guidr', 
+    //     role:'Front End React', 
+    //     githubLink: 'https://github.com/Build-Week-FT-Guidr', 
+    //     deployedLink:'https://guidr.now.sh/',
+    //     description: 'Guidr is an app that lets outdoor guides record their journeys to build their outdoor resume. Using this web app, guides can add, edit, and delete trips to and from their trip record. The frontend was built using React.js, and the backend was built with Node.js.',
         
-    },
+    // },
     {
         name:'Ant Adventure (Desktop Only)', 
         role:'Front End React', 
