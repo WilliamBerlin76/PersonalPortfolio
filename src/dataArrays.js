@@ -35,7 +35,7 @@ export const projectData = [
     },
     {
         name:'Weight Lifting Journal', 
-        role: 'Back End Web Developer', 
+        role: 'Back End Node.js', 
         backend:'https://github.com/Build-Week-Weight-Lifiting-Journal/Back-end',
         deployedLink: 'https://weight-lifiting-journal.netlify.com/',
         description: 'Weight Lifting Journal is an app designed to help weight lifters keep track of their exercises. Users can create, edit, and delete their exercises, and add exercises to a workout. The frontend was created with React.js, and the backend uses Node.js with a PostgreSQL database.',
