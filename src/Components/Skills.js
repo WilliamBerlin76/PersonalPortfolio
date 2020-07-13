@@ -71,6 +71,23 @@ const Skills = () => {
                         {/*<a href="https://icons8.com/icon/13406/sql">SQL icon by Icons8</a>*/}
                     </p>    
                 </h3>
+                <h3 className='skill-card-title'> AWS
+                    <p>
+                        {/* <i className="fab fa-react" /> */}
+                        <img 
+                            style={ {background: '#ffffff', 
+                                    borderRadius: '5px', 
+                                    paddingRight: '5px', 
+                                    paddingLeft: '5px', 
+                                    // height: '125px', 
+                                    // marginTop:'12px'
+                                } } 
+                            alt='skill-logo' 
+                            className='skill-logo' 
+                            src="https://img.icons8.com/color/240/000000/amazon-web-services.png"/>
+                        {/*<a href="https://icons8.com/icon/13406/sql">SQL icon by Icons8</a>*/}
+                    </p>    
+                </h3>
                 
             </div>
         </section>
