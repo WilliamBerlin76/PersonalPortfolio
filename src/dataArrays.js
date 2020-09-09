@@ -18,12 +18,20 @@ export const projectData = [
     
     // },
     
+    // {
+    //     name:'Ant Adventure (Desktop Only)', 
+    //     role:'Front End React', 
+    //     githubLink:'https://github.com/CS26-Team-PleaseComeToBrazil-Mud-Game', 
+    //     deployedLink:'https://ant-adventure.now.sh/',
+    //     description: 'Ant adventure is a simple maze adventure game where the player is an ant traversing the vast maze of an ant hill. The backend was built with Python3 and Django, and the frontend was built using React.js.',
+        
+    // },
     {
-        name:'Ant Adventure (Desktop Only)', 
-        role:'Front End React', 
-        githubLink:'https://github.com/CS26-Team-PleaseComeToBrazil-Mud-Game', 
-        deployedLink:'https://ant-adventure.now.sh/',
-        description: 'Ant adventure is a simple maze adventure game where the player is an ant traversing the vast maze of an ant hill. The backend was built with Python3 and Django, and the frontend was built using React.js.',
+        name:'Snake!', 
+        role:'HTML5, JavaScript', 
+        githubLink:'https://github.com/WilliamBerlin76/snake', 
+        deployedLink:'https://thebigsnake.netlify.app',
+        description: "Classic snake game created with vanilla JavaScript. Play as a snake as you try to eat food across the map. The more you eat, the bigger you get, and the faster you move. Don't run into the walls, or yourself!",
         
     },
     {
