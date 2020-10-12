@@ -114,8 +114,8 @@ body {
   h2{
     font-size: 2.8rem;
     margin-top: 100px;
-    @media screen and (max-width: 500px){
-      font-size: 2.3rem;
+    @media screen and (max-width: 600px){
+      font-size: 2rem;
       margin-top: 50px;
     }
   }
@@ -159,8 +159,8 @@ body {
   h2{
     font-size: 2.8rem;
     margin-top: 100px;
-    @media screen and (max-width: 500px){
-      font-size: 2.3rem;
+    @media screen and (max-width: 600px){
+      font-size: 2rem;
       margin-top: 50px;
     }
   }
@@ -203,6 +203,7 @@ body {
        text-decoration: none;
        font-size: 1.3rem;
        margin-left: 20px;
+       margin-bottom: 10px;
        background: #25585a;
        color: #c8c8e8;
        width: 210px;
@@ -211,8 +212,10 @@ body {
        transition: .2s;
        @media screen and (max-width: 500px){
          margin-left: 0;
-         margin-bottom: 10px;
-         width: 75%;
+         margin-bottom: 0;
+         border-bottom: 2px solid #19746b;
+         width: 100%;
+         border-radius: 0;
          height: 35px;
          font-size: 1.3rem;
        }
@@ -233,16 +236,24 @@ body {
         cursor: pointer;
         .drop-text{
           font-size: 1.1rem;
-          margin-bottom: 3px;
+          margin-bottom:3 px;
         }
       }
       .desc-container{
         .desc-header{
           margin-left: 20px;
           font-size: 1.5rem;
+          @media screen and (max-width: 500px){
+            margin-left: 0;
+            font-size: 1.4rem;
+          }
         }
         .desc-text{
           font-size: 1.2rem;
+          margin: 0 9px 3px;
+          @media screen and (max-width: 500px){
+            font-size: 1.1rem;
+          }
         }
       }
     }
@@ -259,6 +270,9 @@ body {
   h2{
     font-size: 2.8rem;
     margin-top: 100px;
+    @media screen and (max-width: 600px){
+      font-size: 2rem;
+    }
   }
   .contact-form{
     display: flex;
@@ -278,9 +292,11 @@ body {
       height: 50px;
       border-radius: 10px;
       font-size: 1.5rem;
+      border: none;
       @media(max-width: 500px){
         height: 30px;
         font-size: 1.2rem;
+        border-radius: 5px;
       }
     }
     .form-subject{
@@ -311,6 +327,11 @@ body {
         border: 2px solid #25585a;
         background: #c8c8e8;
       }
+      @media screen and (max-width: 600px){
+        width: 220px;
+        height: 50px;
+        font-size: 1.35rem;
+      }
     }
     .sending-message{
       border: 0;
@@ -323,6 +344,9 @@ body {
       width: 250px;
       height: 75px;
       border-radius: 8px;
+    }
+    @media screen and (max-width: 600px){
+      width: 87%;
     }
   }
 }
