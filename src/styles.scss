@@ -279,14 +279,25 @@ body {
     flex-direction: column;
     width: 65%;
     align-items: center;
+    .contact-errors{
+      color: #720000;
+      font-size: 0.95rem;
+      margin-top: -15px;
+    }
     .small-buttons-container{
       display:flex;
       width: 100%;
       justify-content: space-between;
-      .small-input{
-        width: 45%;
-        margin: 25px 0;
-      }
+      .input-err-container{
+        display: flex;
+        flex-direction: column;
+        width: 48%;
+        justify-content: space-between;
+        .small-input{
+          width: 100%;
+          margin: 25px 0;
+        }
+      } 
     }
     input{
       height: 50px;
