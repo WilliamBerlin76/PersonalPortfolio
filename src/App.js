@@ -7,6 +7,7 @@ import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 
 function App() {
+  console.log("Welcome to my website! 🎵🎵");
   return (
     <div className="App">
       <ProfilePic/>

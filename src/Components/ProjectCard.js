@@ -16,35 +16,34 @@ const ProjectCards = props => {
         <div className='project-card' key={props.name}>
             <h3>{props.name}</h3>
             <p>{props.role}</p>
-            {props.githubLink ? 
+            {props.githubLink &&
                 <a href={props.githubLink} target="_blank" rel="noopener noreferrer">
                     <button>Github Repo</button>
                 </a>
-            : null}
+            }
 
-            {props.frontend ? 
+            {props.frontend &&
                 <a href={props.frontend} target="_blank" rel="noopener noreferrer">
                     <button>Frontend Repo</button>
                 </a> 
-            : null } 
+            } 
             
-            {props.backend ?            
+            {props.backend &&          
                 <a href={props.backend} target="_blank" rel="noopener noreferrer">
                     <button>Backend Repo</button>
                 </a>  
-            : null} 
+            } 
            
             <a href={props.deployedLink} target="_blank" rel="noopener noreferrer">
                 <button>Deployed Web App</button>
             </a>
             
                 
-            {showDescription ? 
+            {showDescription && 
                 <div className='desc-container'>
                     <h4 className='desc-header'>description</h4>
                     <p className='desc-text'>{props.description}</p>
                 </div>
-            : null
             }
             {!showDescription ? 
                 <div className='toggle-description' onClick={displayDesc}>
@@ -57,7 +56,6 @@ const ProjectCards = props => {
                     <ExpandLessIcon />
                 </div>
             }
-            
             
         </div>
     )
